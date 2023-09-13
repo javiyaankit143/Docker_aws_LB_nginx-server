@@ -1,26 +1,26 @@
 # Access key
-access_key = ACCESS_KEY
+access_key = AKIAUNNFBVBFMHXXCEEA
 
 # Secret key
-secret_key = SECRET_KEY
+secret_key = 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
 
 # Current Environment
-environment = ENVIRONMENT
+environment = AWS
 
 # Keypair name associated with instances
-key_name = KEY_NAME
+key_name = ankit_aws.pub
 
 # Current Region
-region = REGION
+region = ap-south-1
 
 # VPC CIDR
-vpc_cidr = VPC_CIDR
+vpc_cidr = 10.0.0.0/24
 
 # Public subnet CIDR
-public_subnet_cidr = PUBLIC_CIDR
+public_subnet_cidr = 172.31.32.0/20
 
 # Number of instances to create
-instance_count = NUMBER_OF_INSTANCES
+instance_count = 3
 
 # Instance Type
-instance_type = INSTANCE_TYPE
+instance_type = t3.micro
